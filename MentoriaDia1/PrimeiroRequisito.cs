@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ListaExerciciosMentoria.MentoriaDia1
 {
@@ -10,7 +6,18 @@ namespace ListaExerciciosMentoria.MentoriaDia1
     {
         public static void Executar()
         {
-            Console.WriteLine("Hello World");
+            // Não, um "se" (ou seja, um if) pode vir desacompanhado de um else,
+            // como em situações que queira apenas uma única condição ou numa estrutura de ternário, por exemplo
+
+            //Exemplo:
+
+            Console.WriteLine("Digite sua idade");
+            int.TryParse(Console.ReadLine(), out int num);
+
+            if (num > 18)
+            {
+                Console.WriteLine("Você pode dirigir");
+            }                
         }
     }
 }

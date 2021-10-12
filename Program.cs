@@ -11,6 +11,8 @@ namespace ListaExerciciosMentoria
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Requisito 1", PrimeiroRequisito.Executar},
+                {"Requisito 2", SegundoRequisito.Executar},
+                {"Requisito 3", TerceiroRequisito.Executar},
             });
 
             central.SelecionarEExecutar();
