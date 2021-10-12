@@ -13,6 +13,7 @@ namespace ListaExerciciosMentoria
                 {"Requisito 1", PrimeiroRequisito.Executar},
                 {"Requisito 2", SegundoRequisito.Executar},
                 {"Requisito 3", TerceiroRequisito.Executar},
+                {"Requisito 4", QuartoRequisito.Executar},
             });
 
             central.SelecionarEExecutar();
