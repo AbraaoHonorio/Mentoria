@@ -37,3 +37,5 @@ namespace ListaExerciciosMentoria.MentoriaDia1
         }
     }
 }
+
+//Exercício feito com referência no link: https://wagnergaspar.com/exercicio-3-leia-um-numero-x-e-diga-se-ele-e-primo-ou-nao-com-a-linguagem-portugol/

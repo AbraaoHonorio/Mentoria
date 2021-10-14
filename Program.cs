@@ -18,6 +18,7 @@ namespace ListaExerciciosMentoria
                 {"Requisito 6", SextoRequisito.Executar},
                 {"Requisito 7", SetimoRequisito.Executar},
                 {"Requisito 9", NonoRequisito.Executar},
+                {"Requisito 10", DecimoRequisito.Executar},
             });
 
             central.SelecionarEExecutar();
