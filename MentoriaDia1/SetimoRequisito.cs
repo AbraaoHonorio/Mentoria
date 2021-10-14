@@ -37,6 +37,16 @@ namespace ListaExerciciosMentoria.MentoriaDia1
             
             double media = (primeiraAvaliacao + segundaAvaliacao) / 2;
             Console.WriteLine(media);
+
+            if (media < 3.0)
+            {
+                Console.WriteLine("Reprovado");
+            }
+            else if (media < 6)
+            {
+                Console.WriteLine("Exame");
+            } else
+                Console.WriteLine("Aprovado");           
         }
     }
 }
