@@ -3,7 +3,7 @@
 Repositório resposta à lista de exercícios abaixo
 
 Lista de exercícios – 1º M -
-Mentor: Abraão Honório
+Mentor: [Abraao Honorio](https://github.com/AbraaoHonorio)
 1. Uma condição "se" sempre vem acompanhada de um “senão”? Justifique usando
 exemplos
 2. Escrever um programa para ler um número inteiro e exibir seu sucessor e seu
